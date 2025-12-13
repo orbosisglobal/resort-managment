@@ -1,0 +1,140 @@
+[06-Jun-2024 12:38:48 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:354
+Stack trace:
+#0 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(907): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(882): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(807): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(698): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(587): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(TypeError))
+#6 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#7 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(TypeError))
+#8 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1183): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 /home1/vivekvwi/public_html/totalbrandstudio.com/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#10 {main}
+  thrown in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 354
+[06-Jun-2024 12:40:23 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:354
+Stack trace:
+#0 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(907): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(882): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(807): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(698): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(587): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(TypeError))
+#6 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#7 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(TypeError))
+#8 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1183): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 /home1/vivekvwi/public_html/totalbrandstudio.com/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#10 {main}
+  thrown in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 354
+[06-Jun-2024 12:40:37 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:354
+Stack trace:
+#0 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(907): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(882): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(807): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(698): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(587): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(TypeError))
+#6 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#7 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(TypeError))
+#8 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1183): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 /home1/vivekvwi/public_html/totalbrandstudio.com/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#10 {main}
+  thrown in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 354
+[06-Jun-2024 14:05:47 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:354
+Stack trace:
+#0 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(907): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(882): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(807): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(698): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(587): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(TypeError))
+#6 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#7 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(TypeError))
+#8 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1183): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 /home1/vivekvwi/public_html/totalbrandstudio.com/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#10 {main}
+  thrown in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 354
+[06-Jun-2024 14:05:51 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:354
+Stack trace:
+#0 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(907): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(882): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(807): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(698): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(587): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(TypeError))
+#6 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#7 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(TypeError))
+#8 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1183): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 /home1/vivekvwi/public_html/totalbrandstudio.com/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#10 {main}
+  thrown in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 354
+[06-Jun-2024 14:05:54 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:354
+Stack trace:
+#0 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(907): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(882): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(807): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(698): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(587): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(TypeError))
+#6 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#7 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(TypeError))
+#8 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1183): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 /home1/vivekvwi/public_html/totalbrandstudio.com/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#10 {main}
+  thrown in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 354
+[06-Jun-2024 14:05:57 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:354
+Stack trace:
+#0 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(907): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(882): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(807): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(698): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(587): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(TypeError))
+#6 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#7 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(TypeError))
+#8 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1183): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 /home1/vivekvwi/public_html/totalbrandstudio.com/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#10 {main}
+  thrown in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 354
+[06-Jun-2024 14:06:03 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:354
+Stack trace:
+#0 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(907): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(882): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(807): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(698): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(587): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(TypeError))
+#6 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#7 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(TypeError))
+#8 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1183): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 /home1/vivekvwi/public_html/totalbrandstudio.com/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#10 {main}
+  thrown in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 354
+[06-Jun-2024 14:06:11 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:354
+Stack trace:
+#0 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(907): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(882): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(807): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(698): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(587): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(TypeError))
+#6 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#7 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(TypeError))
+#8 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1183): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 /home1/vivekvwi/public_html/totalbrandstudio.com/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#10 {main}
+  thrown in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 354
+[06-Jun-2024 14:06:36 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:354
+Stack trace:
+#0 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(907): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(882): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(807): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(698): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(587): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(TypeError))
+#6 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(509): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(TypeError))
+#7 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(148): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(TypeError))
+#8 /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1183): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 /home1/vivekvwi/public_html/totalbrandstudio.com/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#10 {main}
+  thrown in /home1/vivekvwi/public_html/totalbrandstudio.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 354
