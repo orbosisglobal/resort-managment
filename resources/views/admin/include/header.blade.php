@@ -434,17 +434,7 @@
                                           </div>
                                       @endcanany
 
-                                        @canany(['resort edit', 'resort delete', 'resort create', 'resort index'])
-                                          <div class="menu-item">
-                                              <!--begin:Menu link-->
-                                              <a class="menu-link {{ isActiveRoute(['resort.edit', 'resort.create', 'resort.show', 'resort.index']) }}"
-                                                  href="{{ route('resort.index') }}">
 
-                                                  <span class="menu-title">Resort</span>
-                                              </a>
-                                              <!--end:Menu link-->
-                                          </div>
-                                      @endcanany
 
                                       <!--end:Menu item-->
                                       <!--begin:Menu item-->
@@ -484,7 +474,7 @@
                                   class="menu-item {{ isActiveModule(['state.edit', 'state.create', 'rstateole.show', 'state.index', 'city.edit', 'city.create', 'city.show', 'city.index', 'location.edit', 'location.create', 'location.show', 'location.index']) }}">
                                   <!--begin:Menu link-->
                                   <span class="menu-link">
-                                      <span class="menu-title">Employees Master</span>
+                                      <span class="menu-title">Master</span>
                                       <span class="menu-arrow"></span>
                                   </span>
                                   <!--end:Menu link-->
@@ -537,6 +527,28 @@
                                   <!--end:Menu sub-->
                               </div>
                           @endcanany
+
+<div class="menu-item">
+                                    <!--begin:Menu content-->
+                                    <div class="menu-content">
+                                        <div class="menu-separator"></div>
+                                    </div>
+                                    <!--end:Menu content-->
+                                </div>
+
+        @canany(['resort edit', 'resort delete', 'resort add', 'resort view'])
+                                          <div class="menu-item">
+                                              <!--begin:Menu link-->
+                                              <a class="menu-link {{ isActiveRoute(['resort.edit', 'resort.create', 'resort.show', 'resort.index']) }}"
+                                                  href="{{ route('resort.index') }}">
+
+                                                  <span class="menu-title">Resort</span>
+                                              </a>
+                                              <!--end:Menu link-->
+                                          </div>
+                                      @endcanany
+
+
 
                           <!--end:Menu item-->
                           <!--begin:Menu item-->

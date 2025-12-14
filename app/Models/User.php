@@ -31,6 +31,11 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'address',
+        'username',
+        'phone',
+        'pincode',
+
     ];
     public function setNameAttribute($value)
     {

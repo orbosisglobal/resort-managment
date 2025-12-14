@@ -15,6 +15,9 @@ class Resort extends Model
         'styles',
         'image',
         'is_active',
+        'location_id',
+        'user_id',
+        'pincode'
     ];
 
     protected $casts = [
