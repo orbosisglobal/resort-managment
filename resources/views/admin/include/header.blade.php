@@ -434,6 +434,18 @@
                                           </div>
                                       @endcanany
 
+                                        @canany(['resort edit', 'resort delete', 'resort create', 'resort index'])
+                                          <div class="menu-item">
+                                              <!--begin:Menu link-->
+                                              <a class="menu-link {{ isActiveRoute(['resort.edit', 'resort.create', 'resort.show', 'resort.index']) }}"
+                                                  href="{{ route('resort.index') }}">
+
+                                                  <span class="menu-title">Resort</span>
+                                              </a>
+                                              <!--end:Menu link-->
+                                          </div>
+                                      @endcanany
+
                                       <!--end:Menu item-->
                                       <!--begin:Menu item-->
 
