@@ -8,7 +8,7 @@ use App\Http\Controllers\admin\AuthController;
 use App\Http\Controllers\admin\DashboardController;
 
 use App\Http\Controllers\admin\SettingController;
-
+use App\Http\Controllers\admin\ResortController;
 use App\Http\Controllers\admin\PermissionController;
 use App\Http\Controllers\admin\RoleController;
 use App\Http\Controllers\admin\StateController;
@@ -31,11 +31,13 @@ use App\Http\Controllers\admin\SalesOrderController;
 use App\Http\Controllers\Api\VisitManagementController;
 use App\Http\Controllers\admin\QuotationController;
 use App\Http\Controllers\admin\DeliveryOrderController;
+use App\Http\Controllers\Controller;
 use Laravel\Sanctum\PersonalAccessToken;
 use App\Models\Vendor;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Http\Request;
 
+// Route::get('/', [HomePageController::class, 'indexx'])->name('index');
 
 Route::get('/linkstorage', fn() => Artisan::call('storage:link'));
 Route::get('/migrate', fn() => 'Migration complete' && Artisan::call('migrate'));
@@ -91,6 +93,36 @@ Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function () {
 
     Route::post('get_state', [DashboardController::class, 'get_state'])->name('get.state');
 
+
+    //----------------------------------resort ------------------------------------------------------//
+Route::post('/admin/resort/{resort}/images/add', [ResortController::class, 'ajaxAddImages'])
+    ->name('resort.images.add');
+
+Route::post('/admin/resort/image/temp-delete', [ResortController::class, 'tempDeleteImage'])
+    ->name('resort.image.tempDelete');
+
+Route::post('/admin/resort/image/undo-delete', [ResortController::class, 'undoDeleteImage'])
+    ->name('resort.image.undoDelete');
+
+Route::post('/admin/resort/image/final-delete', [ResortController::class, 'finalDeleteImage'])
+    ->name('resort.image.finalDelete');
+Route::delete('/admin/resort/{id}', [ResortController::class, 'destroy'])
+    ->name('resort.destroy');
+
+Route::prefix('admin')->middleware(['auth'])->group(function () {
+
+    Route::get('resorts', [ResortController::class, 'index'])->name('resort.index');
+    Route::get('resorts/create', [ResortController::class, 'create'])->name('resort.create');
+    Route::post('resorts', [ResortController::class, 'store'])->name('resort.store');
+    Route::get('resorts/{id}/edit', [ResortController::class, 'edit'])->name('resort.edit');
+    Route::put('resorts/{id}', [ResortController::class, 'update'])->name('resort.update');
+
+    Route::get('resorts/{id}/status', [ResortController::class, 'toggleStatus'])->name('resort.status');
+
+    // web.php
+
+
+});
 
 });
 
